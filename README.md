@@ -31,7 +31,7 @@ That's it. Pass this into ```Localizer.Localize``` and from here on out all the 
 
 Future Work
 ===========
-Right now everything relies on an object being manually added to the Localizer class. The localizer keeps an internal list of objects, this list is never pruned. There needs to be a limit (every 20 objects?) that triggers a prune of the list when it is reached.
+Right now everything relies on an object being manually added to the Localizer class. The localizer keeps an internal list of objects, this list is only pruned when the system is relocalized. Realistically, the system will not be relocalized during runtime, there needs to be an insert count (every 20 objects?) that triggers a prune of the list when it is reached.
 With every obejct needing to be manually added, there is tight coupling between Localizer and localized text. Ideally the ```Localize``` function should be an [Event](https://gist.github.com/gszauer/6554489).
 
 Ideally, localized text should be loaded from a server and cached locally. The LocalizedDocument should be responsible for this.
