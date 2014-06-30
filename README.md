@@ -27,7 +27,7 @@ public class LocalizedText : MonoBehaviour {
 	public string labelText;
 	protected bool showLabel = false;
 ```
-That's it. Pass this into ```Localizer.Localize``` and from here on out all the text int he calss will be up to date with the latest selected locale.
+That's it. Pass this into ```Localizer.Localize``` and from here on out all the text whose variable names match those in the "LocalizedText" sheet will be kept up to date with the latest selected locale.
 
 Future Work
 ===========
