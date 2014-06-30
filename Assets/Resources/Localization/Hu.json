@@ -1,0 +1,12 @@
+[
+	{
+		"sheetName": "QuickBrownFox",
+		"vars" : [ "Display" ],
+		"vals" : [ "A gyors barna róka átugorja a lusta kutyát" ]
+	},
+	{
+		"sheetName": "LocalizedText",
+		"vars" : [ "buttonTextShow", "buttonTextHide", "labelText" ],
+		"vals" : [ "Látható címke", "Láthatatlan címke", "RandomText praktikus beépülő modul, amely lehetővé teszi, hogy mentés, szerkesztés és törlés kategorizált szöveges" ]
+	}
+]

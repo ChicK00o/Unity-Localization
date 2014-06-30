@@ -1,0 +1,12 @@
+[
+	{
+		"sheetName": "QuickBrownFox",
+		"vars" : [ "Display" ],
+		"vals" : [ "The quick brown fox jumps over the lazy dog" ]
+	},
+	{
+		"sheetName": "LocalizedText",
+		"vars" : [ "buttonTextShow", "buttonTextHide", "labelText" ],
+		"vals" : [ "Show Label", "Hide Label", "RandomText is a handy plugin that allows you to save, edit and delete categorized text" ]
+	}
+]
