@@ -16,6 +16,19 @@ Variable names in a class marked ```Localized``` don't have to match the names o
 
 The localizer class does keep track of objects it has localized. Calling the ```Relocalize``` method will automatically relocalize every object that is currently localized.
 
+Sample Usage
+============
+Mark a class as ```Localized``` and pass the sheet name into the calss.
+```
+[Localized("LocalizedText")]
+public class LocalizedText : MonoBehaviour {
+	public string buttonTextShow;
+	public string buttonTextHide;
+	public string labelText;
+	protected bool showLabel = false;
+```
+That's it. Pass this into ```Localizer.Localize``` and from here on out all the text int he calss will be up to date with the latest selected locale.
+
 Future Work
 ===========
 Right now everything relies on an object being manually added to the Localizer class. The localizer keeps an internal list of objects, this list is never pruned. There needs to be a limit (every 20 objects?) that triggers a prune of the list when it is reached.
