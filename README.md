@@ -1,3 +1,7 @@
+Liscence
+========
+This, like all other original works on my github is public domain. Do with it as you will.
+
 About
 =====
 During an interview i was asked how i would design a localization system, my first tought was "I don't want to use a function like ```GetLocalizedText(id : string) : string``` instead i want localization to happen automatically. I've used [C# Attributes](http://msdn.microsoft.com/en-us/library/aa288454(v=vs.71).aspx) before, they seemed like a natural fit for this project.
